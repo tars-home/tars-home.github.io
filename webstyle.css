@@ -53,7 +53,7 @@ body,td,th {
     background-position: center 120px;
 }
 .topBackground.backBanner {
-    background-image: url('./images/picture1.png');
+    background-image: url("./images/picture1.png");
 }
 
 .header
