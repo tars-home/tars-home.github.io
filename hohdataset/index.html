@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOH: Human-Object-Human Handover</title>
+    <link rel="stylesheet" href="styles.css">    
+</head>
+
+<body>
+    <div class = "header">
+        <h2>
+            HOH: Markerless Multimodal Human-Object-Human Handover Dataset with Large Object Count
+        </h2>
+
+        <p>
+            <strong>NeurIPS2023 Datasets and Benchmarks</strong><br/>
+            Noah Wiederhold, Ava Megyeri, DiMaggio Paris, Sean Banerjee, Natasha Kholgade Banerjee<br/>
+            Clarkson University, Potsdam, NY<br/>
+            <a target="_blank" href="https://arxiv.org/abs/2310.00723">Paper</a>
+        </p>
+
+        <p>            
+            <a target="_blank" href = "http://128.153.25.39:5000/sharing/XnQezt3Zv">Link to Dataset</a>&ast;<br/>
+            <font size="-1">&ast;Password access; email authors for password.</font>
+        </p>
+        
+    </div>  
+
+    <div class = "textAndDemos">
+        <img src="assets\hohd.jpg" alt="Teaser" height="100%" width="100%">
+
+        <h2>
+            2,720 Handovers&nbsp;&nbsp;&nbsp;&nbsp;136 Objects&nbsp;&nbsp;&nbsp;&nbsp;40 People&nbsp;&nbsp;&nbsp;&nbsp;20 Pairs with Role Reversal<br/>            
+            Full Markerless 360 Capture<br/>
+            <br/>
+        </h2>
+
+
+        <p>
+            <h3>Data contained in HOH</h3>            
+            4-Viewpoint 30FPS Kinect RGB-D Videos [3M Images]<br/> 
+            4-Viewpoint 60FPS FLIR RGB Videos [2.8M Images]<br/>            
+            OpenPose Skeletons in Kinect Videos [1.6M Skeletons]<br/>
+            Fused Spatiotemporal 3D Point Clouds [250K Point Clouds]<br/><br/>
+            Giver and Receiver Comfort Ratings<br/>
+            Ground Truth Annotations of Grasp, Transfer, Release Time Events<br/>
+            Ground Truth on Multi-Person Handedness and 28-Class Grasp Type<br/>
+            Ground Truth Giver Hand, Object, and Receiver Hand Segments<br/><br/>
+
+            Tracked Giver Hand, Object, and Receiver Hand in Kinect RGB [2.5M Segments]<br/>
+            Giver Hand, Object, and Receiver Hand 3D Point Clouds [790K Segments]<br/><br/>
+
+            Object 3D Models and Metadata [For 136 Objects]<br/>
+        </p>
+
+
+        <p>
+            <br/>
+        </p>
+        <div class = "videoDemos">
+            <h3>
+                Example Video Sequences
+            </h3>
+            <div class = "videoSet">
+                <video width="98%" height="98%" controls>
+                    <source src="assets\01.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class = "videoSet">
+                <video width="98%" height="98%" controls>
+                    <source src="assets\02.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class = "videoSet">
+                <video width="98%" height="98%" controls>
+                    <source src="assets\03.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+        
+        <div class = "videoDemos">
+            <h3>
+                Example 3D Model Alignments
+            </h3>
+            <div class = "videoSet">
+                <video width="98%" height="98%" controls>
+                    <source src="assets\aligned1.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class = "videoSet">
+                <video width="98%" height="98%" controls>
+                    <source src="assets\aligned2.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+        
+
+        <div class = "videoDemos">
+            <h3>
+                3D Models of Objects in HOH
+            </h3>
+            <img src="assets\obj.jpg" alt="Teaser" height="100%" width="100%">
+        </div>
+
+    </div>  
+</body>
+</html>
