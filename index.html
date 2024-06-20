@@ -1,29 +1,25 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <HTML xmlns="http://www.w3.org/1999/xhtml">
     <HEAD>
-        <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <TITLE>HUBEDA</TITLE>
-        <LINK rel="StyleSheet" href="./webstyle.css" type="text/css" media="all">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-        <script src="jquery-3.2.1.js"></script>
+                    <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+                    <TITLE>TARS</TITLE>
+                    <LINK rel="StyleSheet" href="./webstyle.css" type="text/css" media="all">
+                    <script src="jquery-3.2.1.js"></script>
     </HEAD>
     <BODY style="margin: 0px;">
         <div class="header">
             <div class="header-bar">
+                <div class="logo-box">
+                    <img class="button" data-path="thetop" src="images/logo3.png"/>
+                </div>                
                 <div class="navTable">
-                    <div class="navRow" id="myNavRow">                    
-                        <div style="display:table-cell;" class="button" data-path="theabout">&nbsp;&nbsp;ABOUT&nbsp;&nbsp;</div>&nbsp;&nbsp;
-                        <div style="display:table-cell;" class="button" data-path="theinvited">&nbsp;&nbsp;INVITED&nbsp;SPEAKERS&nbsp;&nbsp;</div>&nbsp;&nbsp;                        
-                        <div style="display:table-cell;" class="button" data-path="thedemos">&nbsp;&nbsp;DEMOS&nbsp;&nbsp;</div>&nbsp;&nbsp;                        
-                        <div style="display:table-cell;" class="button" data-path="thepaper">&nbsp;&nbsp;CALL&nbsp;FOR&nbsp;PAPERS&nbsp;&nbsp;</div>&nbsp;&nbsp;
-                        
-                    </div>
-                    <div class="navRow" id="myNavRow">                    
-                        <div style="display:table-cell;" class="button" data-path="thetravel">&nbsp;&nbsp;TRAVEL&nbsp;GRANT&nbsp;&nbsp;</div>&nbsp;&nbsp;
-                        <div style="display:table-cell;"  class="button" data-path="thedates">&nbsp;&nbsp;DATES&nbsp;&nbsp;</div>&nbsp;
-                        <div style="display:table-cell;" class="button" data-path="theorg">&nbsp;&nbsp;ORGANIZERS&nbsp;&nbsp;</div>
+                    <div class="navRow" id="myNavRow">
+                    
+                        <div style="display:table-cell;" class="button" data-path="theabout">&nbsp;&nbsp;ABOUT&nbsp;&nbsp;</div>&nbsp;&nbsp;|&nbsp;&nbsp;
+                        <div style="display:table-cell;" class="button" data-path="thepubs">&nbsp;&nbsp;PUBLICATIONS&nbsp;&nbsp;</div>&nbsp;&nbsp;|&nbsp;&nbsp;
+                        <div style="display:table-cell;" class="button" data-path="theawards">&nbsp;&nbsp;AWARDS&nbsp;&nbsp;</div>&nbsp;&nbsp;|&nbsp;&nbsp;
+                        <div style="display:table-cell;"  class="button" data-path="thepeople">&nbsp;&nbsp;PEOPLE&nbsp;&nbsp;</div>&nbsp;<!--&nbsp;|&nbsp;&nbsp;
+                        <div style="display:table-cell;" class="button" data-path="thepress">&nbsp;&nbsp;PRESS&nbsp;&nbsp;</div>                       -->
                     </div>
                 </div>
             </div>
@@ -32,180 +28,747 @@
         
         <div id="container" class="content">
             <div id="thetop" class="topBackground backBanner">
-                    <!--<img src = "./images/back.jpg"/>-->
+
+            <!--<iframe src="https://www.google.com/maps/embed?pb=!4v1644269530269!6m8!1m7!1sCAoSLEFGMVFpcE5yTDRRRmxwRThyQkFYMWxmcTZtMkZ5c1NPaDZxSG1qcUFjWk1o!2m2!1d44.6625522!2d-74.99664179999999!3f180!4f10!5f0.7820865974627469" frameborder="0" style="width: 100%; height: 100%;border:0" id="panor"></iframe>-->
+
+
+            <script>
+                $("#panor").hide();
+                setTimeout(function () { 
+                    $("#panor").fadeIn(2500);
+                }, 3000);
+            
+            </script>
+                
+            
+                
             </div>
             <div style="background-color: #CCCCCC; z-index: 10; position: fixed; left: 10px; padding: 10px; border-radius: 10px;" class="button" data-path="thetop">
                 Top
-            </div>
+                </div>
             
             <div id="theabout" class="projectItem">
-                <div class="shrunkLeft">
-                <p><h1>HUBEDA</h1></p>
+                <div style="width: 100%; height: 80px;"></div>
+                <p><h1>ABOUT TARS</h1></p>
 
-				<p><h2>Workshop on Human Behavior Data Acquisition for Human-Robot Interaction</h2></p>
-
-                <p><b>Co-Located with IEEE RO-MAN 2024<br/>Workshop Date: August 30, 2024</b></p>
-                <p><b><div class="inlink" data-path="thepaper">Call for Papers</div></b></p>
+				<p><h2>DIRECTORS</h2>
                 
-                <p>A vast number of advancements have been made in making robots engage in more natural human-robot interaction (HRI). To close the gap on enabling safe seamless human-aware HRI, collection of large data on human behavior, specially diverse multi-person interactions spanning large participant counts, is still an open challenge. Data on human behavior spans visual information on human movements, gestures, and interactions, spoken content, textual information, and physiological data such as heart rate, electromyography, and electrodermal activity.</p>
-
-                <p>Through <b>invited talks, demos, papers, and posters,</b> HUBEDA addresses fundamental questions on the acquisition, analysis, and use of large-scale data on human behavior and interactions to enable data-informed HRI. Following topics are of interest.
-                <ul>
-                    <li>Datasets on single-person behavior and multi-person interaction for HRI</li>
-                    <li>Multimodal setups integrating visual, audio, inertial, tactile, and physiological sensing for full-range capture</li>
-                    <li>Augmented reality / virtual reality (AR/VR) approaches to scale up human subject data collection for HRI</li>
-                    <li>AI, machine learning (ML), vision, and natural language processing (NLP) approaches to estimate parameters of interest for HRI from datasets on human behavior</li>
-                    <li>Leveraging large vision and language models to decipher human activity, text, and spoken content</li>
-                    <li>Robotic implementations driven using human behavior datasets</li>
-                    <li>Robot learning from human behavior datasets and multi-person interactions</li>
-                    <li>Applications involving multiple agents such as collaborative assembly, handover, repair</li>
-                    <li>Ethical practices in data collection for single/multi-person behavior</li>
-                    <li>Addressing challenges in reaching out to diverse population groups, e.g., children, older adults, and individuals with disabilities, to scale up data collection</li>
-                </ul>
-                </p>
-                 
-                <p>The workshop is supported through a generous donation from the <a href="https://delucafoundation.org/">De Luca Foundation</a>.</p>
-                </div>
-            </div>
-
-            <div id="theinvited" class="projectItem2">
-                <div class="shrunkLeft">
-                <p><h2>INVITED SPEAKERS</h2>
-
                 <div class="peopleTable">
                     <div class="peopleCell">
                         <div class="peopleContainer">
-                            <img src="images/aajoudani.jpg"></img>
+                            <img src="images/people/nban.jpg"></img>
                         </div>
                         <div class="peopleBio">
-                            <a target = "_blank" href="https://www.iit.it/people-details/-/people/arash-ajoudani">ARASH AJOUDANI</a><br/>Director, HRII Laboratory<br/>Italian Insitute of Technology<br/>
+                            Natasha Banerjee<br/>Associate Professor<br/>Computer Science<br/><a target="_blank" href="https://docs.google.com/document/d/1DHxngxY1ZuI3Rcvfc8cJRhR-4Qflo7yMpdjomYNDfsU/edit?usp=sharing">CV</a>&nbsp;|&nbsp;<a target="_blank" href="https://scholar.google.com/citations?user=OskUiS8AAAAJ">Scholar</a>
                         </div>
                     </div>
                     <div class="peopleCell">
                         <div class="peopleContainer">
-                            <img src="images/vnovak.jpg"></img>
+                            <img src="images/people/sban.jpg"/>
                         </div>
                         <div class="peopleBio">
-                            <a target = "_blank" href="https://researchdirectory.uc.edu/p/novakdn">VESNA NOVAK</a><br/>Associate Professor, Department of Electrical Engineering and Computer Science<br/>University of Cincinnati<br/>
-                        </div>
-                    </div>
-                    <div class="peopleCell">
-                        <div class="peopleContainer">
-                            <img src="images/eshort.jpeg"/>
-                        </div>
-                        <div class="peopleBio">
-                            <a target = "_blank" href="https://eshort.github.io/">ELAINE SHORT</a><br/>Assistant Professor, Department of Computer Science<br/>Tufts University<br/>
-                        </div>
-                    </div>
-                    <div class="peopleCell">
-                        <div class="peopleContainer">
-                            <img src="images/probinette.jpeg"></img>
-                        </div>
-                        <div class="peopleBio">
-                            <a target = "_blank" href="https://sites.uml.edu/paul-robinette/">PAUL ROBINETTE</a><br/>Assistant Professor, Department of Electrical and Computer Engineering<br/>University of Massachussetts Lowell<br/>
-                        </div>
-                    </div>
-                    <div class="peopleCell">
-                        <div class="peopleContainer">
-                            <img src="images/pbiswas.jpg"></img>
-                        </div>
-                        <div class="peopleBio">
-                            <a target = "_blank" href="https://cambum.net/PB/">PRADIPTA BISWAS</a><br/>Associate Professor, Center for Product Design and Manufacturing<br/>Indian Institute of Science<br/>
-                        </div>
+                            Sean Banerjee<br/>Associate Professor<br/>Computer Science<br/><a target="_blank" href="https://docs.google.com/document/d/1Ee6Be9gR2qmjGu9X8PPQJYi2Wnwnv7BPE8-jgFFeJUo/edit?usp=sharing">CV</a>&nbsp;|&nbsp;<a target="_blank" href="https://scholar.google.com/citations?user=RNr9YugAAAAJ">Scholar</a></div>
                     </div>                    
+                    
                 </div>
-            </p>
+                
+                
+                <p class="shrunk">At the Terascale All-sensing Research Studio (TARS), we perform research in <b>human-driven artificial intelligence using capture and analysis of dense multi-person interactions  in online and real-world environments</b>. Our studio houses two multi-modal sensing spaces---the Gazebo, a dense multi-modal sensing space consisting of 16 Kinect sensors, 192 226-FPS color cameras, 16 thermal cameras, 16 sEMG sensors, 16 AMD Ryzen machines each with a 1080 Ti GPU, and 24 Intel 6-core machines to study multi-person interactions, and the Cube, a space with 4 Kinects, 5 thermal cameras, and 4 226-FPS color cameras to study two-person interactions. It also houses two Kinova Gen3 robotic manipulators, one LoCoBot mobile robot manipulator, multiple lab-built drones, a lab-built walker robot, and several VR systems, 3D printers, 3D scanners, a compute cluster with 275,000+ CUDA cores and 4,800+ Tensor cores spread over 50+ GPUs, and a 2+ petabyte data center. The core of our work is in understanding how humans perform tasks in the real-world, to inform next generation artificial intelligence (AI), robotics, and virtual reality. Our research spans computer vision, deep learning, computer graphics, and human-computer interaction. The studio is funded through multiple NSF grants.</p>
+
+                <p class="shrunk">We look for graduate and undergraduate students with excellent academic credentials, substantial project work in computer science and AI (at the graduate level) and a strong drive to perform research with us. <!--Contact either Dr. Sean Banerjee (sbanerje a clarkson d edu) or Dr. Natasha Banerjee (nbanerje a clarkson d edu) to determine research opportunities with the studio, or to schedule a visit.--></p>
+                
+
+                <div style="width: 100%; height: 80px;"></div>
+                
             </div>
+            
+            
+            <div id="thepubs" class="projectItem">
+                
+                
+                <div style="width: 100%; height: 80px;"></div>
+                <p><h1>PUBLICATIONS</h1></p>
+                <div class="flex-container">
 
-            <div id="thedemos" class="projectItem">
+                    <div class="flex-container2">
+                        <div class="pubContainer">
+                            <img src="images/VRTrajFore.jpg"></img>
+                        </div>
+                        <div class="pubContainer">
+                            <p>M. Li, N. K. Banerjee, and S. Banerjee. Using Motion Forecasting for Behavior-Based Virtual Reality (VR) Authentication. <I>IEEE International Conference on Artificial Intelligence & extended and Virtual Reality (AIxVR)</I>, Los Angeles, California, 2024. <b>[Best Paper]</b></p>                            
+                        </div>
+                    </div>
+
+                    <div class="flex-container2">
+                        <div class="pubContainer">
+                            <img src="images/VRHandInHand.jpg"></img>
+                        </div>
+                        <div class="pubContainer">
+                            <p>M. Duver, N. Wiederhold, M. Kyrarini, S. Banerjee, and N. K.  Banerjee. VR-Hand-in-Hand: Using Virtual Reality (VR) Hand Tracking For Hand-Object Data Annotation. <I>IEEE International Conference on Artificial Intelligence & extended and Virtual Reality (AIxVR)</I>, Los Angeles, California, 2024. <b>[Best Demo]</b></p> 
+                        </div>
+                    </div>
+
+                    <div class="flex-container2">
+                        <div class="pubContainer">
+                            <img src="images/VRLectureHall.jpg"></img>
+                        </div>
+                        <div class="pubContainer">
+                            <p>J. Minnekanti, N. K. Banerjee, and S. Banerjee. ClassesInVR: An Immersive VR-Based Classroom.  VR-Hand-in-Hand: Using Virtual Reality (VR) Hand Tracking For Hand-Object Data Annotation. <I>IEEE International Conference on Artificial Intelligence & extended and Virtual Reality (AIxVR)</I>, Los Angeles, California, 2024.</p> 
+                        </div>
+                    </div>
+
+                    <div class="flex-container2">
+                        <div class="pubContainer">
+                            <img src="images/VRClassroom.jpg"></img>
+                        </div>
+                        <div class="pubContainer">
+                            <p>M. White, A. Kupin, S. Inzerillo, N. K. Banerjee, and S. Banerjee. Evaluating the Effectiveness of VR Classrooms as a Replacement for Traditional Asynchronous Video-based Learning Environments. <I>IEEE International Conference on Artificial Intelligence & extended and Virtual Reality (AIxVR)</I>, Los Angeles, California, 2024.</p>
+                        </div>
+                    </div>
+
+                    <div class="flex-container2">
+                        <div class="pubContainer">
+                            <img src="images/VRMusic.jpg"></img>
+                        </div>
+                        <div class="pubContainer">
+                            <p>E. Matzek, T. Yankee, O. Kohler, T. Lipke-Perry, N. K. Banerjee, and S. Banerjee. VRmonic: A VR Piano Playing Form Trainer. <I>IEEE International Conference on Artificial Intelligence & extended and Virtual Reality (AIxVR)</I>, Los Angeles, California, 2024.</p> 
+                        </div>
+                    </div>
+
+                    <div class="flex-container2">
+                        <div class="pubContainer">
+                            <img src="images/VRLanguage.jpg"></img>
+                        </div>
+                        <div class="pubContainer">
+                            <p>M. White, N. K. Banerjee, and S. Banerjee. VRcabulary: A VR Environment for Reinforced Language Learning via Multi-Modular Design. <I>IEEE International Conference on Artificial Intelligence & extended and Virtual Reality (AIxVR)</I>, Los Angeles, California, 2024.</p>
+                        </div>
+                    </div>
+
+                    <div class="flex-container2">
+                        <div class="pubContainer">
+                            <img src="images/VRExperience.jpg"></img>
+                        </div>
+                        <div class="pubContainer">
+                            <p>M. Li, N. Zafar, N. K. Banerjee, and S. Banerjee. Evaluating Deep Networks for Detecting User Familiarity with VR from Hand Interactions. <I>IEEE International Conference on Artificial Intelligence & extended and Virtual Reality (AIxVR)</I>, Los Angeles, California, 2024.</p> 
+                        </div>
+                    </div>
+
+                    <div class="flex-container2">
+                        <div class="pubContainer">
+                            <img src="images/hoh.jpg"></img>
+                        </div>
+                        <div class="pubContainer">
+                            <p>N. Wiederhold, A. Megyeri, D. Paris, S. Banerjee, and N. K. Banerjee. HOH: Markerless Multimodal Human-Object-Human Handover Dataset with Large Object Count. <I>Neural Information Processing Systems (NeurIPS) Datasets and Benchmarks Track</I>, New Orleans, Louisiana.</p>
+                            <p><b><a target="_blank" href="https://hohdataset.github.io">[Webpage]</a></b>&nbsp;&nbsp;<b><a target="_blank" href="https://arxiv.org/abs/2310.00723">[Paper]</a></b></p>
+                        </div>
+                    </div>
+
+                    <div class="flex-container2">
+                        <div class="pubContainer">
+                            <img src="images/fantastic.jpg"></img>
+                        </div>
+                        <div class="pubContainer">
+                            <p>N. Lamb, B. Molloy, C. Palmer, S. Banerjee, and N. K. Banerjee (2023). Fantastic Breaks: A Dataset of Paired 3D Scans of Real-World Broken Objects and Their Complete Counterparts. <I>IEEE International Conference on Computer Vision and Pattern Recognition (CVPR)</I>, Vancouver, Canada.</p>
+                            <p><b><a target="_blank" href="https://terascale-all-sensing-research-studio.github.io/FantasticBreaks/">[Webpage]</a></b>&nbsp;&nbsp;<b><a target="_blank" href="https://arxiv.org/abs/2303.14152">[Paper]</a></b>&nbsp;&nbsp;<b><a target="_blank" href="https://youtu.be/OIcuIuq5u9Q">[Video]</a></b></p>
+                        </div>
+                    </div>
+
+                    <div class="flex-container2">
+                        <div class="pubContainer">
+                            <img src="images/handoverorient.jpg"></img>
+                        </div>
+                        <div class="pubContainer">
+                            <p>N. Wiederhold,  M. Li, N. Lamb, D. Paris, A. Tulskie, S. Banerjee, and N. K. Banerjee (2023). Studying How Object Handoff Orientations Relate to Subject Preferences on Handover. <I>IEEE International Conference on Advanced Robotics and its Social Impacts (ARSO)</I>, Berlin, Germany.</p>
+                            <p><b><a target="_blank" href="https://ieeexplore.ieee.org/document/10187566">[Paper]</a></b>&nbsp;&nbsp;<b><a target="_blank" href="https://youtu.be/1PbiWGHvoPM">[Video]</a></b></p>
+                        </div>
+                    </div>
+
+                    <div class="flex-container2">
+                        <div class="pubContainer">
+                            <img src="images/workforceperc.jpg"></img>
+                        </div>
+                        <div class="pubContainer">
+                            <p>G. Kaur, S. Banerjee, and N. K. Banerjee (2023). Perception of Human-Robot Collaboration Across Countries and Job Domains. <I>IEEE International Conference on Advanced Robotics and its Social Impacts (ARSO)</I>, Berlin, Germany.</p>
+                            <p><b><a target="_blank" href="https://ieeexplore.ieee.org/document/10187560">[Paper]</a></b></p>
+                        </div>
+                    </div>
+
+                    <div class="flex-container2">
+                        <div class="pubContainer">
+                            <img src="images/workforceperc1.jpg"></img>
+                        </div>
+                        <div class="pubContainer">
+                            <p>G. Kaur, S. Banerjee, and N. K. Banerjee (2023). Studying Worker Perceptions on Safety, Autonomy, and Job Security in Human-Robot Collaboration. <I>International Conference on Automation, Robotics and Applications (ICARA)</I>, Abu Dhabi, UAE</p>
+                            <p><b><a target="_blank" href="https://ieeexplore.ieee.org/document/10125842">[Paper]</a></b></p>
+                        </div>
+                    </div>
+
+                    <div class="flex-container2">
+                        <div class="pubContainer">
+                            <img src="images/robotrepair.jpg"></img>
+                        </div>
+                        <div class="pubContainer">
+                            <p>X. Song, N. Lamb, S. Banerjee, and N. K. Banerjee (2023). Reinforcement-Learning Based Robotic Assembly of Fractured Objects Using Visual and Tactile Information. <I>International Conference on Automation, Robotics and Applications (ICARA)</I>, Abu Dhabi, UAE</p>
+                            <p><b><a target="_blank" href="https://ieeexplore.ieee.org/document/10125938">[Paper]</a></b></p>
+                        </div>
+                    </div>
+
+                    <div class="flex-container2">
+                        <div class="pubContainer">
+                            <img src="images/deepjoin.jpg"></img>
+                        </div>
+                        <div class="pubContainer">
+                            <p>N. Lamb, S. Banerjee, and N. K. Banerjee (2022). DeepJoin: Learning a Joint Occupancy, Signed Distance, and Normal Field Function for Shape Repair. <I>SIGGRAPH Asia</I>.</p>
+                            <p><b><a target="_blank" href="https://dl.acm.org/doi/10.1145/3550454.3555470">[Paper]</a></b>&nbsp;&nbsp;<b><a target="_blank" href="https://www.youtube.com/watch?v=JceAZP9dPx4&feature=youtu.be">[Video]</a></b>&nbsp;&nbsp;<b><a target="_blank" href="https://github.com/Terascale-All-sensing-Research-Studio/DeepJoin/">[Code]</a></b></p>
+                        </div>
+                    </div>
+
+                    <div class="flex-container2">
+                        <div class="pubContainer">
+                            <img src="images/deepmend.jpg"></img>
+                        </div>
+                        <div class="pubContainer">
+                            <p>N. Lamb, S. Banerjee, and N. K. Banerjee (2022). DeepMend: Learning Occupancy Functions to Represent Shape for Repair. <I>European Conference on Computer Vision (ECCV)</I>.</p>
+                            <p><b><a target="_blank" href="https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136630426.pdf">[Paper]</a></b>&nbsp;&nbsp;<b><a target="_blank" href="https://nikwl.github.io/publication/2022-deepmend/5293.mp4">[Video]</a></b>&nbsp;&nbsp;<b><a target="_blank" href="https://github.com/Terascale-All-sensing-Research-Studio/DeepMend/">[Code]</a></b></p>
+                        </div>
+                    </div>
+
+                    <div class="flex-container2">
+                        <div class="pubContainer">
+                            <img src="images/3.png"></img>
+                        </div>
+                        <div class="pubContainer">
+                            <p>N. Lamb, S. Banerjee, and N. K. Banerjee (2022). MendNet: Restoration of Fractured Shapes Using Learned Occupancy Functions. <I>Computer Graphics Forum (CGF, Proc. Symposium on Computer Graphics, SGP)</I>.</p>
+                            <p><b><a target="_blank" href="https://diglib.eg.org/handle/10.1111/cgf14603">[Paper]</a></b>&nbsp;&nbsp;<b><a target="_blank" href="https://www.youtube.com/watch?v=jxo96Yllz7k&feature=youtu.be">[Video]</a></b>&nbsp;&nbsp;<b><a target="_blank" href="https://github.com/Terascale-All-sensing-Research-Studio/MendNet/">[Code]</a></b></p>
+                        </div>
+                    </div>
+
+                    <div class="flex-container2">
+                        <div class="pubContainer">
+                            <img src="images/joints.jpg"></img>
+                        </div>
+                        <div class="pubContainer">
+                            <p>J. Judge, P. R. K. Prosun, O. Talmage, A. Dykeman, S. Banerjee, and N. K. Banerjee (2022). Predicting Weight and Strenuousness from High-Speed Videos of Subjects Attempting Lift. <I>IEEE Conference on Connected Health: Applications, Systems, and Engineering Technologies (CHASE)</I>.</p>
+                            <p><b><a target="_blank" href="https://ieeexplore.ieee.org/abstract/document/9983649">[Paper]</a></b></p>
+                        </div>
+                    </div>
+
+                    <div class="flex-container2">
+                        <div class="pubContainer">
+                            <img src="images/thermal.jpg"></img>
+                        </div>
+                        <div class="pubContainer">
+                            <p>A. Dykeman, J. Judge, P. R. K. Prosun, G. Kaur, O. Talmage, S. Banerjee, and N. K. Banerjee (2022). Post-Lift Analysis of Thermal Imprint for Weight and Effort Detection. <I>IEEE Conference on Connected Health: Applications, Systems, and Engineering Technologies (CHASE)</I>. <b>[Best Student Paper Runner Up]</b></p>
+                            <p><b><a target="_blank" href="https://ieeexplore.ieee.org/abstract/document/9983624">[Paper]</a></b></p>
+                        </div>
+                    </div>
+
+                    <div class="flex-container2">
+                        <div class="pubContainer">
+                            <img src="images/sigmap.jpg"></img>
+                        </div>
+                        <div class="pubContainer">
+                            <p>R. Turner, N. K. Banerjee, and S. Banerjee (2022). Using Video Motion Vectors for Structure from Motion 3D Reconstruction. <I>International Conference on Signal Processing and Multimedia Applications (SIGMAP)</I>. <b>[Best Paper]</b></p>
+                            <p><b><a target="_blank" href="./papers/SIGMAP2022_Turner.PDF">[Paper]</a></b></p>
+                        </div>
+                    </div>
+
+                    <div class="flex-container2">
+                        <div class="pubContainer">
+                            <img src="images/vr2022_1.jpg"></img>
+                        </div>
+                        <div class="pubContainer">
+                            <p>R. Miller, N. K. Banerjee, and S. Banerjee (2022). Combining Real-World Constraints on User Behavior with Deep Neural Networks for Virtual Reality (VR) Biometrics. <I>IEEE Conference on Virtual Reality and 3D User Interfaces (IEEE VR)</I>. <b>[Best Paper Honorable Mention]</b></p>
+                            <p><b><a target="_blank" href="./papers/VR2022_Combining.PDF">[Paper]</a></b>&nbsp;&nbsp;<b><a target="_blank" href="https://www.youtube.com/watch?v=Yjai-_Vopag">[Video]</a></b>&nbsp;&nbsp;<b><a target="_blank" href="https://github.com/Terascale-All-sensing-Research-Studio/VR-Biometric-Authentication">[Code]</a></b></p>
+                        </div>
+                    </div>
+
+                    <div class="flex-container2">
+                        <div class="pubContainer">
+                            <img src="images/VR2022_2.jpg"></img>
+                        </div>
+                        <div class="pubContainer">
+                            <p>R. Miller, N. K. Banerjee, and S. Banerjee (2022). Temporal Effects in Motion Behavior for Virtual Reality (VR) Biometrics. <I>IEEE Conference on Virtual Reality and 3D User Interfaces (IEEE VR)</I>.</p>
+                            <p><b><a target="_blank" href="./papers/VR2022_Temporal.PDF">[Paper]</a></b>&nbsp;&nbsp;<b><a target="_blank" href="https://www.youtube.com/watch?v=-wnU8WFiFfA">[Video]</a></b>&nbsp;&nbsp;<b><a target="_blank" href="https://github.com/Terascale-All-sensing-Research-Studio/VR-Biometric-Authentication">[Code]</a></b></p>
+                        </div>
+                    </div>
+
+                    <div class="flex-container2">
+                        <div class="pubContainer">
+                            <img src="images/VR2022_3.jpg"></img>
+                        </div>
+                        <div class="pubContainer">
+                            <p>R. Miller, N. K. Banerjee, and S. Banerjee (2022). Using External Video to Attack Behavior-Based Security Mechanisms in Virtual Reality (VR). <I>IEEE Conference on Virtual Reality and 3D User Interfaces (IEEE VR)</I>.</p>
+                            <p><b><a target="_blank" href="./papers/VR2022_Attack.PDF">[Paper]</a></b>&nbsp;&nbsp;<b><a target="_blank" href="https://www.youtube.com/watch?v=Y6aqFL8C-e0">[Video]</a></b>&nbsp;&nbsp;<b><a target="_blank" href="https://github.com/Terascale-All-sensing-Research-Studio/VR-Biometric-Authentication">[Code]</a></b></p>
+                        </div>
+                    </div>
+
+                    <div class="flex-container2">
+                        <div class="pubContainer">
+                            <img src="images/scf2021_2.jpg"></img>
+                        </div>
+                        <div class="pubContainer">
+                            <p>N. Lamb, N. Wiederhold, B. Lamb, S. Banerjee, and N. K. Banerjee (2021). Using Learned Visual and Geometric Features to Retrieve Complete 3D Proxies for Broken Objects. <I>ACM Symposium on Computational Fabrication (SCF)</I>.
+                            <p><b><a target="_blank" href="./papers/SCF2021_Lamb.pdf">[Paper]</a></b>&nbsp;&nbsp;<b><a target="_blank" href="https://git.io/JuKaJ">[Code]</a></b></p>
+                        </div>
+                    </div>
+                    <div class="flex-container2">
+                        <div class="pubContainer">
+                            <img src="images/vr2021_2.jpg"></img>
+                        </div>
+                        <div class="pubContainer">
+                            <p>R. Miller, N. K. Banerjee, and S. Banerjee (2021). Using Siamese Neural Networks to Perform Cross-System Behavioral Authentication in Virtual Reality. <I>IEEE Conference on Virtual Reality and 3D User Interfaces (IEEE VR)</I>.</p>
+                            <p><b><a target="_blank" href="./papers/VR2021_Miller.PDF">[Paper]</a></b></p>
+                        </div>
+                    </div>
+
+					<div class="flex-container2">
+                        <div class="pubContainer">
+                            <img src="images/wevr.jpg"></img>
+                        </div>
+                        <div class="pubContainer">
+                            <p>R. Miller, N. K. Banerjee, and S. Banerjee (2020). Within-System and Cross-System Behavior-Based Biometric Authentication in Virtual Reality. <I>IEEE Conference on Virtual Reality and 3D User Interfaces Workshops (VRW)</I>, Atlanta, Georgia.</p>
+                            <p><b><a target="_blank" href="./papers/WEVR2020_Miller.PDF">[Paper]</a></b></p>
+                        </div>
+                    </div>
+
+                    <div class="flex-container2">
+                        <div class="pubContainer">
+                            <img src="images/material.jpg"></img>
+                        </div>
+                        <div class="pubContainer">
+                            <p>J. Gately, Y. Liang, M. K. Wright, N. K. Banerjee, S. Banerjee, and S. Dey (2020). Automatic Material Classification Using Thermal Finger Impression. <I>International Conference on Multimedia Modeling (MMM)</I>, Daejeon, Korea.</p>
+                            <p><b><a target="_blank" href="./papers/MMM2020_Gately.PDF">[Paper]</a></b></p>
+                        </div>
+                    </div>
+
+					<div class="flex-container2">
+                        <div class="pubContainer">
+                            <img src="images/aivr2.jpg"></img>
+                        </div>
+                        <div class="pubContainer">
+                            <p>R. Miller, A. Ajit, N. K. Banerjee, and S. Banerjee (2019). Realtime Behavior-Based Continual Authentication of Users in Virtual Reality Environments. <I>IEEE International Conference on Artificial Intelligence and Virtual Reality (AIVR)</I>, San Diego, California.</p>
+                            <p><b><a target="_blank" href="./papers/AIVR2019_Miller.PDF">[Paper]</a></b>&nbsp;&nbsp;<b><a target="_blank" href="https://youtu.be/POCxkvf2T9Y">[Video]</a></b></p>
+                        </div>
+                    </div>
+
+                    <div class="flex-container2">
+                        <div class="pubContainer">
+                            <img src="images/tottenville.png"></img>
+                        </div>
+                        <div class="pubContainer">
+                            <p>D. Gwinn, J. Helmick, N. K. Banerjee, and S. Banerjee (2019). Comparison of Traditional and Constrained Recursive Clustering Approaches for Generating Optimal Census Block Group Clusters. <I>Communications in Computer and Information Science</I>.</p>
+                            <p><b><a target="_blank" href="./papers/GISTAMJournal2019_Gwinn.PDF">[Paper]</a></b></p>
+                        </div>
+                    </div>
+
+					<div class="flex-container2">
+                        <div class="pubContainer">
+                            <img src="images/aivr1.jpg"></img>
+                        </div>
+                        <div class="pubContainer">
+                            <p>A. Ajit, N. K. Banerjee, and S. Banerjee (2019). Combining Pairwise Feature Matches from Device Trajectories for Biometric Authentication in Virtual Reality Environments. <I>IEEE International Conference on Artificial Intelligence and Virtual Reality (AIVR)</I>, San Diego, California <b>[Best Student Paper]</b>.</p>
+                            <p><b><a target="_blank" href="./papers/AIVR2019_Ajit.PDF">[Paper]</a></b></p>
+                        </div>
+                    </div>
+
+                    <div class="flex-container2">
+                        <div class="pubContainer">
+                            <img src="images/broken1.jpg"></img>
+                        </div>
+                        <div class="pubContainer">
+                            <p>N. Lamb, S. Banerjee, and N. K. Banerjee (2019). Automated Reconstruction of Smoothly Joining 3D Printed Restorations to Fix Broken Objects. <I>ACM Symposium on Computational Fabrication (SCF)</I>, Pittsburgh, Pennsylvania.
+                            <p><b><a target="_blank" href="./papers/AutomatedRecRestor_SCF2019.pdf">[Paper]</a></b></b>&nbsp;&nbsp;<b><a target="_blank" href="https://www.youtube.com/watch?v=2v5FPmgTXJo">[Presentation]</a></b></b>&nbsp;&nbsp;<b><a target="_blank" href="https://youtu.be/PI7C51yuzew">[Video]</a></b></p>
+                        </div>
+                    </div>
+                    <div class="flex-container2">
+                        <div class="pubContainer">
+                            <img src="images/cups1.jpg"></img>
+                        </div>
+                        <div class="pubContainer">
+                            <p>Y. Jiang, S. Banerjee, and N. K. Banerjee (2019). Predicting Human Grasp Locations on Cup Handles by Using Deep Neural Networks to Infer Heat Signatures from Depth Data. <I>IEEE International Conference on Multimedia and Expo Workshops (ICMEW)</I>, Shanghai, China.</p>
+                            <p><b><a target="_blank" href="./papers/PredictingHumanGrasp_ICMEW2019.PDF">[Paper]</a></b></p>
+                        </div>
+                    </div>
+                    <div class="flex-container2">
+                        <div class="pubContainer">
+                            <img src="images/olderadults1.jpg"></img>
+                        </div>
+                        <div class="pubContainer">
+                            <p>J. Ryan, S. Inzerillo, J. Helmick, A. Boolani, N. K. Banerjee, and S. Banerjee (2019). Predicting If Older Adults Perform Cognitive Tasks Using Body Joint Movements From RGB-D Videos. <I>The Eleventh International Conference on eHealth, Telemedicine, and Social Medicine (eTELEMED)</I>, Athens, Greece.</p>
+                            <p><b><a target="_blank" href="./papers/PredictingCognitiveTasks_eTELEMED2019.PDF">[Paper]</a></b></p>
+                        </div>
+                    </div>
+                    <div class="flex-container2">
+                        <div class="pubContainer">
+                            <img src="images/vrauth1.jpg"></img>
+                        </div>
+                        <div class="pubContainer">
+                            <p>A. Kupin, B. Moeller, N. K. Banerjee, and S. Banerjee (2019). Task-Driven Biometric Authentication of Users in Virtual Reality (VR) Environments. <I>International Conference on Multimedia Modeling (MMM)</I>, Thessaloniki, Greece <b>[Best Paper Candidate]</b>.</p>
+                            <p><b><a target="_blank" href="./papers/TaskDriven_MMM2019.PDF">[Paper]</a></b></p>
+                        </div>
+                    </div>
+                    <div class="flex-container2">
+                        <div class="pubContainer">
+                            <img src="images/levels1.jpg"></img>
+                        </div>
+                        <div class="pubContainer">
+                            <p>Y. Jiang, E. Schenck, S. Kranz, S. Banerjee, and N. K. Banerjee (2019). CNN-Based Non-Contact Detection of Food Level in Bottles from RGB Images. <I>International Conference on Multimedia Modeling (MMM)</I>, Thessaloniki, Greece.</p>
+                            <p><b><a target="_blank" href="./papers/CNNBasedLevel_MMM2019.PDF">[Paper]</a></b></p>
+                        </div>
+                    </div>
+                        <div class="flex-container2">
+                            <div class="pubContainer">
+                                <img src="images/cooking11.jpg"></img>
+                            </div>
+                            <div class="pubContainer">
+                                <p>Y. Jiang, M. Luo, S. Banerjee, and N. K. Banerjee (2018). When Will Breakfast Be Ready: Temporal Prediction of Food Readiness Using Deep Convolutional Neural Networks on Thermal Videos. <I>IEEE Intl. Conf. on Multimedia and Expo Workshops (ICMEW)</I>, San Diego, CA.</p>
+                                <p><b><a target="_blank" href="./papers/WhenWillBreakfast_ICMEW2018.PDF">[Paper]</a></b></p>
+                            </div>
+                        </div>
+                        <div class="flex-container2">
+                            <div class="pubContainer">
+                                <img src="images/ar1.jpg"></img>
+                            </div>
+                            <div class="pubContainer">
+                                <p>T. Dunn, S. Banerjee, and N. K. Banerjee (2018). User-Independent Detection of Swipe Pressure using a Thermal Camera for Natural Surface Interaction. <I>International Workshop on Multimedia Signal Processing (MMSP)</I>, Vancouver, Canada <b>[Top 5% Paper Award]</b>.</p>
+                                <p><b><a target="_blank" href="./papers/SwipeThermal_MMSP2018.PDF">[Paper]</a></b></p>
+                            </div>
+                        </div>
+                        <div class="flex-container2">
+                            <div class="pubContainer">
+                                <img src="images/kin1.jpg"></img>
+                            </div>
+                            <div class="pubContainer">
+                                <p>Y. Jiang, D. Russell, T. Godisart, N. K. Banerjee, and S. Banerjee (2018). Hardware Synchronization of Multiple Kinects and Microphones for 3D Audiovisual Spatiotemporal Data Capture. <I>IEEE International Conference on Multimedia and Expo (ICME)</I>, San Diego, California.</p>
+                                <p><b><a target="_blank" href="./papers/HardwareSynch_ICME2018.PDF">[Paper]</a></b></p>
+                            </div>
+                        </div>
+                        <div class="flex-container2">
+                            <div class="pubContainer">
+                                <img src="images/banana1.jpg"></img>
+                            </div>
+                            <div class="pubContainer">
+                                <p>L. Guo, H. Quant, N. Lamb, B. Lowit, N. K. Banerjee, and S. Banerjee</b> (2018). Multi-Camera Microenvironment to Capture Multi-view Time-lapse Videos for 3D Analysis of Aging Objects. <I>International Conference on Multimedia Modeling (MMM)</I>, Bangkok, Thailand.</p>
+                                <p><b><a target="_blank" href="./papers/MultiCameraMicroenviron_MMM2018.PDF">[Paper]</a></b>&nbsp;&nbsp;<b><a target="_blank" href="https://youtu.be/6MvmOVjy67c">[Video]</a></b></p>
+                            </div>
+                        </div>
+                        <div class="flex-container2">
+                            <div class="pubContainer">
+                                <img src="images/apple1.jpg"></img>
+                            </div>
+                            <div class="pubContainer">
+                                <p>L. Guo, H. Quant, N. Lamb, B. Lowit, S. Banerjee, and N. K. Banerjee (2018). Spatiotemporal 3D Models of Aging Fruit from Multi-View Time-Lapse Videos. <I>International Conference on Multimedia Modeling (MMM)</I>, Bangkok, Thailand.</p>
+                                <p><b><a target="_blank" href="./papers/SpatiotemporalAging_MMM2018.PDF">[Paper]</a></b></p>
+                            </div>
+                        </div>
+                        <div class="flex-container2">
+                            <div class="pubContainer">
+                                <img src="images/3dscan1.jpg"></img>
+                            </div>
+                            <div class="pubContainer">
+                                <p>N. Lamb, N. K. Banerjee, and S. Banerjee (2018). Programmatic 3D Printing of a Revolving Camera Track to Automatically Capture Dense Images for 3D Scanning of Objects. <I>Intl. Conf. on Multimedia Modeling (MMM)</I>, Bangkok, Thailand.</p>
+                                <p><b><a target="_blank" href="./papers/Programmatic_MMM2018.PDF">[Paper]</a></b>&nbsp;&nbsp;<b><a target="_blank" href="https://www.youtube.com/watch?v=gOXPfByE5rQ">[Video]</a></b></p>
+                            </div>
+                        </div>
+                        <div class="flex-container2">
+                            <div class="pubContainer">
+                                <img src="images/vr1.jpg"></img>
+                            </div>
+                            <div class="pubContainer">
+                                <p>H. Quant, S. Banerjee, and N. K. Banerjee (2018). A virtual reality interface for interactions with spatiotemporal 3D data. <I>International Conference on Multimedia Modeling (MMM)</I>, Bangkok, Thailand.</p>
+                                <p><b><a target="_blank" href="./papers/VirtualRealitySpatiotemporal_MMM2018.PDF">[Paper]</a></b>&nbsp;&nbsp;<b><a target="_blank" href="https://www.youtube.com/watch?v=ElU3z_UJFnw">[Video]</a></b></p>
+                            </div>
+                        </div>
+                        <div class="flex-container2">
+                            <div class="pubContainer">
+                                <img src="images/gistam1.jpg"></img>
+                            </div>
+                            <div class="pubContainer">
+                                <p>D. Gwinn, J. Helmick, N. K. Banerjee, and S. Banerjee (2018). Optimal Estimation of Census Block Group Clusters to Improve the Computational Efficiency of Drive Time Calculations. <I>Intl. Conf. on Geographical Information Systems Theory, Applications and Management (GISTAM)</I>, Madeira, Portugal.</p>
+                                <p><b><a target="_blank" href="./papers/BlockGroup_GISTAM2018.PDF">[Paper]</a></b></p>
+                            </div>
+                        </div>
+                        <div class="flex-container2">
+                            <div class="pubContainer">
+                                <img src="images/iswf1.jpg"></img>
+                            </div>
+                            <div class="pubContainer">
+                                <p>T. Dunn, N. K. Banerjee, and S. Banerjee (2016). GPU acceleration of document similarity measures for automated bug triaging. <I>International Workshop on Software Faults (co-located with IEEE International Symposium on Software Reliability Engineering, ISSRE)</I>, Ottawa, Canada.</p>
+                                <p><b><a target="_blank" href="./papers/GPUAccelerationDocSim_ISSREW2016.PDF">[Paper]</a></b></p>
+                            </div>
+                        </div>
+                    </div>
+                
+                <div style="width: 100%; height: 80px;"></div>
+                
+            </div>
+            
+            <div id="theawards" class="projectItem">
+                <div style="width: 100%; height: 80px;"></div>
+                <p><h1>AWARDS</h1></p>
                 <div class="shrunkLeft">
-                    <p><h2>DEMOS</h2>
-                <p>At HUBEDA, we will have <b>demos</b> from <a href="https://www.universal-robots.com/">Universal Robots</a> on current advances and from <a href="https://tars-home.github.io/">TARS</a> on integrating physiological sensing with robotic to enable HRI applications. Attendees will receive the opportunity to interact with robots from UR and TARS, and ask the presenters questions about the technology.
+                    <p>Best Paper Award at 2024 IEEE International Conference on Artificial Intelligence & extended and Virtual Reality (AIxVR)</p>
+                    <p>Best Demo Award at 2024 IEEE International Conference on Artificial Intelligence & extended and Virtual Reality (AIxVR)</p>
+                    <p>Clarkson Technology Showcase & Competition, Audience Choice in Promising Tech Category, 2022</p>
+                    <p>Best Student Paper Runner Up at 2022 IEEE/ACM International Conference on Connected Health: Applications, Systems and Engineering Technologies (CHASE)</p>
+                    <p>Best Paper at 2022 International Conference on Signal Processing and Multimedia Applications (SIGMAP)</p>
+                    <p>Best Paper Honorable Mention at 2022 IEEE Conference on Virtual Reality and 3D User Interfaces (IEEE VR)</p>
+                    <p>Best Student Paper at 2019 International Conference on Artificial Intelligence &amp; Virtual Reality (AIVR)</p>
+                    <p>Best Paper Candidate at 2019 International Conference on Multimedia Modeling (MMM)</p>
+                    <p>Top 5% Paper Award at 2018 Multimedia Signal Processing Workshop (MMSP)</p>
+                </div>
+                <div style="width: 100%; height: 80px;"></div>
+                                            
 
-                <p><h3>DEMO PRESENTERS</h3></p>
+            <div id="thepeople" class="projectItem">
+                <p><h1>PEOPLE</h1>
+                <div class="blankDiv2"></div>
+
                 <div class="peopleTable">
+                    <div class="peopleCell">
+                        <div class="peopleContainer">
+                            <img src="images/people/nban.jpg"></img>
+                        </div>
+                        <div class="peopleBio">
+                            <a target="_blank" href="https://docs.google.com/document/d/1DHxngxY1ZuI3Rcvfc8cJRhR-4Qflo7yMpdjomYNDfsU/edit?usp=sharing">Natasha Banerjee</a><br/>Associate Professor<br/>Computer Science
+                        </div>
+                    </div>
+                    <div class="peopleCell">
+                        <div class="peopleContainer">
+                            <img src="images/people/sban.jpg"/>
+                        </div>
+                        <div class="peopleBio">
+                            <a target="_blank" href="https://docs.google.com/document/d/1Ee6Be9gR2qmjGu9X8PPQJYi2Wnwnv7BPE8-jgFFeJUo/edit?usp=sharing">Sean Banerjee</a><br/>Associate Professor<br/>Computer Science</div>
+                    </div>                    
+                    
+                </div>
+                
+                <p><h2>PhD STUDENTS</h2>
+                
+                <div class="peopleTable">
+                    <div class="peopleCell">
+                        <div class="peopleContainer">
+                            <img src="images/people/nlamb.jpg"/>
+                        </div>
+                        <div class="peopleBio"><a target="_blank" href="https://nikwl.github.io/">Nikolas Lamb</a><br/>Computer Science</div>
+                    </div>
+
+                    <div class="peopleCell">
+                        <div class="peopleContainer">
+                            <img src="images/people/nwiederhold.jpg"/>
+                        </div>
+                        <div class="peopleBio">Noah Wiederhold<br/>Computer Science</div>
+                    </div>
+                    <div class="peopleCell">
+                        <div class="peopleContainer">
+                            <img src="images/people/xsong.jpg"/>
+                        </div>
+                        <div class="peopleBio">Xinchao Song<br/>Computer Science</div>
+                    </div>
                     
                     <div class="peopleCell">
                         <div class="peopleContainer">
-                            <img src="images/rmancilla.jpg"></img>
+                            <img src="images/people/priyo.jpg"/>
                         </div>
-                        <div class="peopleBio">
-                            RAFAEL MANCILLA</a><br/>Business Development Manager<br/>Universal Robots<br/>
-                        </div>
+                        <div class="peopleBio">Priyo Ranjan Kundu Prosun<br/>Computer Science</div>
                     </div>
+
                     <div class="peopleCell">
                         <div class="peopleContainer">
-                            <img src="images/amegyeri.jpg"></img>
+                            <img src="images/people/gkaur.jpg"/>
                         </div>
-                        <div class="peopleBio">
-                            AVA MEGYERI<br/>Graduate Student, Department of Computer Science and Engineering<br/>Wright State University<br/>
+                        <div class="peopleBio">Gurpreet Kaur<br/>Computer Science</div>
+                    </div>
+
+                    <div class="peopleCell">
+                        <div class="peopleContainer">
+                            <img src="images/people/rturner.jpg"/>
+                        </div>
+                        <div class="peopleBio">Richard Turner<br/>Computer Science</div>
+                    </div>
+                 
+                    <div class="peopleCell">
+                        <div class="peopleContainer">
+                            <img src="images/people/mli.jpg"/>
+                        </div>
+                        <div class="peopleBio">Mingjun Li<br/>Computer Science</div>
+                    </div>
+                 
+                    <div class="peopleCell">
+                        <div class="peopleContainer">
+                            <img src="images/people/nzafar.jpg"/>
+                        </div>
+                        <div class="peopleBio">Numan Zafar<br/>Computer Science</div>
+                    </div>
+
+                    <div class="peopleCell">
+                            <div class="peopleContainer">
+                                <img src="images/people/yuliu.JPG"/>
+                            </div>
+                            <div class="peopleBio">Yu Liu<br/>Computer Science</div>
+                        </div>
+
+                                        
+                </div>
+
+                <p><h2>MS STUDENTS</h2>
+                    <div class="peopleTable">
+                    <div class="peopleCell">
+                            <div class="peopleContainer">
+                                <img src="images/people/avamegyeri.jpg"/>
+                            </div>
+                            <div class="peopleBio">Ava Megyeri<br/>Computer Science</div>
+                        </div>
+                        <div class="peopleCell">
+                            <div class="peopleContainer">
+                                <img src="images/people/ethanmatzek.jpg"/>
+                            </div>
+                            <div class="peopleBio">Ethan Matzek<br/>Computer Science</div>
                         </div>
                     </div>
                 </div>
-            </div>
-            
-            <div id="thepaper" class="projectItem2">
-                <div class="shrunkLeft">
-                <p><h2>CALL FOR PAPERS</h2>
-                We invite authors to submit papers of up to 6 pages (including references) on the <span class="inlink" data-path="theabout">topics of interest</span>. Accepted papers will be published on the workshop webpage and on arXiv. Authors are also invited to submit extended abstracts of up to 4 pages (including references) to be presented at the workshop on early-phase work, late-breaking results, and demonstrations, to be presented at the workshop.  Authors of accepted papers will be invited to submit a full paper a special issue (to be determined) to enable publications associated with the workshop.</p>
 
-                <p>The goal of the workshop is to bootstrap research on data-driven methods in HRI. A full working result on a robot, though encouraged, is not strictly necessary for acceptance. Rather, papers must demonstrate how their setup, methods, algorithms, and/or datasets provide human behavior data to HRI and/or robotics in general.</p>
-
-                <p><b>Submission link:</b> <a target="_blank" href="https://easychair.org/my/conference?conf=hubeda2024">https://easychair.org/my/conference?conf=hubeda2024</a>
-                </div>
-            </div>
-            <div id="thetravel" class="projectItem2">
-                <div class="shrunkLeft">
-                <p><h2>TRAVEL GRANT</h2>
-                To encourage student participation, HUBEDA will be sponsoring <b>travel grants</b> for student attendees based on merit and need. Travel grants are competitive, and priority will be provided to presenters. We highly encourage students from underrepresented communities, including women, individuals with disabilities, and students from underrepresented minorities to apply. The link for the travel grant will be posted soon.</p>
-                </div>
-            </div>
-            <div id="thedates" class="projectItem2">
-                <div class="shrunkLeft">
-                <p><h2>IMPORTANT DATES</h2>
-                <ul>
-                    <li>Initial Paper Submission Deadline (EXTENDED): <s>Jun 30, 2024, AOE</s> <b>Jul 15, 2024, AOE</b></li>
-                    <li>Notification of Paper Acceptance: <s>Jul 15, 2024, AOE</s> Jul 30, 2024, AOE</li>
-                    <li>Final Paper Submission: <s>Jul 22, 2024, AOE</s> Aug 7, 2024, AOE</li>
-                    <li>Travel Grant Application Submission: <s>Jul 22, 2024, AOE</s> Aug 1, 2024, AOE</li>
-                    <li>Travel Grant Notification: <s>Jul 30, 2024, AOE</s> Aug 7, 2024, AOE</li>
-                    <li>Workshop: Aug 30, 2024</li>
-                </ul>
-                </p>
-                </div>
-            </div>
-            <div id="theorg" class="projectItem2">
-                <div class="shrunkLeft">
-                <p><h2>ORGANIZERS</h2>
+                <p><h2>GRADUATE ALUMNI</h2>
+                
                 <div class="peopleTable">
                     <div class="peopleCell">
-                        <div class="peopleContainer">
-                            <img src="images/nbanerjee.jpg"></img>
+                            <div class="peopleContainer">
+                                <img src="images/people/otalmage.jpg"/>
+                            </div>
+                            <div class="peopleBio">Owen Talmage (MS)<br/>Computer Science</div>
                         </div>
-                        <div class="peopleBio">
-                            <a target = "_blank" href="http://tars-home.github.io/">NATASHA BANERJEE</a><br/>Associate Professor<br/>Terascale All-sensing Research Studio (TARS)<br/>Clarkson University<br/>nbanerjee a clarkson d edu<!--<br/><a target="_blank" href="https://docs.google.com/document/d/1DHxngxY1ZuI3Rcvfc8cJRhR-4Qflo7yMpdjomYNDfsU/edit?usp=sharing">CV</a>&nbsp;|&nbsp;<a target="_blank" href="https://scholar.google.com/citations?user=OskUiS8AAAAJ">Scholar</a>-->
-                        </div>
-                    </div>
+
                     <div class="peopleCell">
                         <div class="peopleContainer">
-                            <img src="images/mkyrarini.jpg"></img>
+                            <img src="images/people/adykeman.jpg"/>
                         </div>
-                        <div class="peopleBio">
-                            <a target = "_blank" href="https://sites.google.com/view/mariakyrarini/home">MARIA KYRARINI</a><br/>Assistant Professor<br/>Human-Machine Interaction &amp; Innovation Lab (HMI2)<br/>Santa Clara University<br/>mkyrarini a scu d edu<!--<br/><a target="_blank" href="https://docs.google.com/document/d/1DHxngxY1ZuI3Rcvfc8cJRhR-4Qflo7yMpdjomYNDfsU/edit?usp=sharing">CV</a>&nbsp;|&nbsp;<a target="_blank" href="https://scholar.google.com/citations?user=OskUiS8AAAAJ">Scholar</a>-->
-                        </div>
+                        <div class="peopleBio">Austin Dykeman (MS)<br/>Computer Science</div>
                     </div>
+
                     <div class="peopleCell">
                         <div class="peopleContainer">
-                            <img src="images/sbanerjee.jpg"/>
+                            <img src="images/people/rmiller.jpg"/>
                         </div>
-                        <div class="peopleBio">
-                            <a target = "_blank" href="http://tars-home.github.io/">SEAN BANERJEE</a><br/>Associate Professor<br/>Terascale All-sensing Research Studio (TARS)<br/>Clarkson University<br/>sbanerjee a clarkson d edu<!--<a target="_blank" href="https://docs.google.com/document/d/1Ee6Be9gR2qmjGu9X8PPQJYi2Wnwnv7BPE8-jgFFeJUo/edit?usp=sharing">CV</a>&nbsp;|&nbsp;<a target="_blank" href="https://scholar.google.com/citations?user=RNr9YugAAAAJ">Scholar</a>-->
+                        <div class="peopleBio">Robert Miller (PhD)<br/>Computer Science</div>
+                    </div>
+
+                    <div class="peopleCell">
+                            <div class="peopleContainer">
+                                <img src="images/people/yjiang.png"/>
+                            </div>
+                            <div class="peopleBio">Yijun Jiang (PhD)<br/>Computer Science</div>
                         </div>
-                    </div>                    
+
+                        <div class="peopleCell">
+                            <div class="peopleContainer">
+                                <img src="images/people/dgwinn.png"/>
+                            </div>
+                            <div class="peopleBio">Damon Gwinn (MS)<br/>Computer Science</div>
+                        </div>
+
+                        <div class="peopleCell">
+                            <div class="peopleContainer">
+                                <img src="images/people/mbishop.png"/>
+                            </div>
+                            <div class="peopleBio">Marc Bishop (MS)<br/>Computer Science</div>
+                        </div>
+
+                        <div class="peopleCell">
+                            <div class="peopleContainer">
+                                <img src="images/people/mluo.png"/>
+                            </div>
+                            <div class="peopleBio">Miao Luo (MS)<br/>Computer Science</div>
+                        </div>
+
+                        <div class="peopleCell">
+                            <div class="peopleContainer">
+                                <img src="images/people/lguo.png"/>
+                            </div>
+                            <div class="peopleBio">Lintao Guo (MS)<br/>Computer Science</div>
+                        </div>
+                    
+                    <div class="peopleCell">
+                            <div class="peopleContainer">
+                                <img src="images/people/dparis.jpg"/>
+                            </div>
+                            <div class="peopleBio">DiMaggio Paris (MS)<br/>Computer Science</div>
+                        </div>
+
+                        <div class="peopleCell">
+                            <div class="peopleContainer">
+                                <img src="images/people/akupin.jpg"/>
+                            </div>
+                            <div class="peopleBio">Alex Kupin (MS)<br/>Computer Science</div>
+                        </div>
+
+                        <div class="peopleCell">
+                            <div class="peopleContainer">
+                                <img src="images/people/atulskie.jpg"/>
+                            </div>
+                            <div class="peopleBio">Alaina Tulskie (MS)<br/>Computer Science</div>
+                        </div>
+
+                        
+
+                        <div class="peopleCell">
+                            <div class="peopleContainer">
+                                <img src="images/people/jyothi.jpg"/>
+                            </div>
+                            <div class="peopleBio">Jyothinadh Minnekanti (MS)<br/>Computer Science</div>
+                        </div>
                 </div>
+
+                
+                
+
+                <div style="blankDiv2"></div>                
             </div>
-            
-    
+
+        
+        
+        <!--
+        
+        
+            <div id="thepress" class="projectItem white">
+                <div style="width: 100%; height: 80px;"></div>
+                <p><h1>PRESS</h1></p>
+                <div class="shrunkLeft">
+                    <p id="clarksonnews"><b>NORTH COUNTRY NOW</b><br/>
+                    <a target="_blank" href="https://www.northcountrynow.com/news/clarkson-getting-nsf-funding-research-robotic-assistants-among-human-workers-0285790">Clarkson getting NSF funding for research into robotic assistants among human workers.</a></p>
+                    <p id="clarksonnews"><b>CLARKSON NEWS</b><br/>
+                    <a target="_blank" href="https://www.clarkson.edu/news/clarkson-professors-receive-robot-continue-human-robot-handover-interaction-research">Clarkson Professors Receive Robot to Continue Human-Robot Handover Interaction Research.</a></p>
+                    <p id="clarksonnews"><b>CLARKSON NEWS</b><br/>
+                    <a target="_blank" href="https://www.clarkson.edu/news/clarkson-university-students-awarded-nsf-research-fellowship">Clarkson University Students Awarded NSF Research Fellowship [Nikolas Lamb's NSF GRF Announcement].</a></p>
+                    <p id="clarksonnews"><b>CLARKSON NEWS</b><br/>
+                    <a target="_blank" href="https://www.clarkson.edu/news/professors-sean-natasha-banerjee-awarded-elite-nsf-research-grant">Professors Sean &amp; Natasha Banerjee Awarded Elite NSF Research Grant.</a></p>
+                    <p id="northcountrynow4"><b>NORTH COUNTRY NOW</b><br/>
+                    <a target="_blank" href="http://northcountrynow.com/honors-recognition/two-clarkson-profs-earn-nsf-grant-lab-0203514">Two Clarkson profs earn NSF grant for lab.</a></p>
+                    <p id="northcountrynow3"><b>NORTH COUNTRY NOW</b><br/>
+                    <a target="_blank" href="http://northcountrynow.com/news/clarkson-profs-have-new-way-sort-through-huge-amounts-social-media-data-cybersecurity-and-legal">Clarkson profs have new way to sort through huge amounts of social media data for cybersecurity and legal cases.</a></p>
+                    <p id="cn1"><b>CLARKSON NEWS</b><br/>
+                    <a target="_blank" href="http://internal.clarkson.edu/news/2017/news-release_2017-06-05-1.html">Clarkson University professors collaborate with lawyer on extracting activities of interest from dense social media content.</a></p>
+                    <p id="gnaughton"><b>CLARKSON NEWS</b><br/>
+                    <a target="_blank" href="http://internal.clarkson.edu/news/2017/news-release_2017-04-28-1.html">Clarkson University student [Gus Naughton] gives TEDx talk on how to start a career early.</a><br/>
+                    <p id="northcountrynow1"><b>NORTH COUNTRY NOW</b><br/>
+                    <a target="_blank" href="http://northcountrynow.com/news/potsdam-company-can-make-3d-miniatures-you-and-your-family-0184976">Potsdam company can make 3D miniatures of you and your family.</a></p>
+                    <p id="dco1"><b>DAILY COURIER OBSERVER</b><br/>
+                    <a target="_blank" href="http://www.mpcourier.com/dco/clarkson-undergrads-research-looking-to-redefine-computer-speed-20161026">Clarkson undergrad [Tim Dunn]’s research looking to redefine computer speed.</a></p>
+                    <p id="northcountrynow2"><b>NORTH COUNTRY NOW</b><br/>
+                    <a target="_blank" href="http://northcountrynow.com/featured_events/clarkson-university-sets-science-cafes-spring-potsdam-and-canton-0163233">Clarkson University sets Science Cafés for spring in Potsdam and Canton.</a></p>
+                    <p id="thedailynews1"><b>THE DAILY NEWS</b><br/>
+                    <a target="_blank" href="http://www.thedailynewsonline.com/dco/clarkson-university-professor-selected-as-finalist-for-2015-world-technology-awards-20151202/1">Clarkson University professor selected as finalist for 2015 World Technology Awards.</a></p>
+                    
+                </div>
+                <div style="width: 100%; height: 80px;"></div>
+                
+                
+            </div>-->
+
+
+    <div class="projectItem">
+            <p>Copyright &#169; Natasha Kholgade Banerjee. All rights reserved.</p>
+        </div>
             <script type="text/javascript">
                 $(".button").on("click", function(){
                     var path = $(this).attr("data-path");
@@ -226,7 +789,69 @@
                 
                 function mouseEvent(e) {
                     userScroll = true;
-                }            
+                }
+            
+            $(function () {
+              var maxdiv = 21;
+              var j = maxdiv;
+              var i = maxdiv - 1;
+              var a2 = $("#a"+j).position().top;
+              var a1 = $("#a"+i).position().top;
+              var iScroll = $("#divAnnounce").scrollTop();
+              document.getElementById("divAnnounce").scrollTop = 0;
+              var iScroll = $("#divAnnounce").scrollTop();
+              interval = setInterval(function () {
+                                     var a2 = $("#a"+j).position().top;
+                                     var a1 = $("#a"+i).position().top;
+                                     var val = $("#divAnnounce").prop("scrollHeight") - iScroll - $("#divAnnounce").prop("clientHeight");
+                                     if (val < 50) {
+                                     iScroll = 0;
+                                     j = maxdiv;
+                                     i = maxdiv - 1;
+                                     } else {
+                                     iScroll = iScroll + a1 - a2;
+                                     if (j == maxdiv) iScroll = iScroll + 20;
+                                     j = j - 1;
+                                     i = i - 1;
+                                     }
+                                     $("#divAnnounce").animate( { scrollTop: iScroll }, 500 );
+                                     }, 10000);
+              
+              });
+              
+              
+              document.getElementById("divAnnounce").addEventListener('DOMMouseScroll', mouseEvent, false);
+              document.getElementById("divAnnounce").addEventListener('wheel', mouseEvent, false);
+              document.getElementById("divAnnounce").addEventListener('mousewheel', mouseEvent, false);
+              $("#divAnnounce").onmousewheel = mouseEvent;
+              $("#divAnnounce").scroll(function() {
+                                if (userScroll) clearInterval(interval);
+                                });
+                                
+                                
+                                $(window).ready(updateSize);
+                                $(window).resize(updateSize);
+                                
+                                function updateSize()
+                                {
+                                    var winWidth = window.innerWidth;
+                                    var winHeight = window.innerHeight;
+                                    var div = $('#thetop');
+                                    var width = div.width();
+                                    
+                                    if (winWidth>winHeight) {
+                                        div.css('height', 0.3*width);
+                                    } else {
+                                        div.css('height', 0.5*width);
+                                    }
+                                    
+                                    var div2 = $('#divAnnounce');
+                                    
+                                    div2.css('top', 0.3*div.height());
+                                    div2.css('height', 0.5*div.height());
+                                    
+                                }
+            
             </script>
         </div>
     </BODY>
